@@ -1,0 +1,8 @@
+ Three Query Interface Methods:
+
+ Company.all
+
+ @company=Company.find_by(title: "Vogue International")
+ @employee =@company.employees.create(name: "Immelda Marcos")
+
+ @company.employees.count
